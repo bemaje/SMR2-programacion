@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<HTMl>
+    <head>
+        <meta charset "UTF-8">
+        <meta name="viewport"content="width=device-width,initialscale=1.0">
+        <title>Página básica - Call of Duty Warzone</title>
+    </head>
+<body>
+<h1>Esto es un título principal: Call of Duty Warzone</h1><br>
+<h2>Esto es un subtitulo: Modo Battle Royale</h2>
+<p>Esto es un párrafo: En Call of Duty Warzone, los jugadores compiten en un mapa enorme, 
+    buscando armas, equipamiento sobreviviendo hasta ser el último en pie.</p>
+    <h2> Atributos</h2>
+    <p>Los atributos nos dan información adicional de las etiquetas HTML.</p>
+    <h3>Atributo href</h3>
+    <p>Esto es un párrafo con enlace <a href="https://www.callofduty.com/es/warzone">Visita la paǵina oficial de Warzone</a></p>
+</body>
+</HTMl>
