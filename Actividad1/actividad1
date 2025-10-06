@@ -10,9 +10,19 @@
 <h2>Esto es un subtitulo: Modo Battle Royale</h2>
 <p>Esto es un párrafo: En Call of Duty Warzone, los jugadores compiten en un mapa enorme, 
     buscando armas, equipamiento sobreviviendo hasta ser el último en pie.</p>
-    <h2> Atributos</h2>
+    <h2>Atributos</h2>
     <p>Los atributos nos dan información adicional de las etiquetas HTML.</p>
     <h3>Atributo href</h3>
     <p>Esto es un párrafo con enlace <a href="https://www.callofduty.com/es/warzone">Visita la paǵina oficial de Warzone</a></p>
-</body>
+    <h3>Atributo src en Imágenes</h3>
+    <img src="../img/callduty.jpeg" alt="juego" width="100">
+     <a href="https://www.callofduty.com/es/warzone">
+  <img src="../img/callduty.jpeg" alt="imagen Duty con enlace" width="100"> 
+    </a>
+    <h2>Atributo style</h2>
+    <p>Vamos a poder aplicar estilos como color, tamaño de fuente, tipo de fuente, pero esto se debe hacer en la hoja de estilos css</p>
+    <p>Aplicando color a un párrafo</p>
+    <p style="color: green"> En párrafo de color verde</p>
+    <h2>El atributo title</h2>
+        </body> 
 </HTMl>
