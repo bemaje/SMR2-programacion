@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FORMULARIO</title>
+    </head>
+    <body>
+        <H1>Controles de Formulario</H1>
+ <form action=""method="get">
+ <fieldset>
+    <legend>Datos personales</legend>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required autofocus><br><br>
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required><br><br>
+    <label for="url">URL:</label>
+    <input type="url" id="url" name="url" required placeholder="Escribe la URL de tu página web personal"><br><br>
+
+    <label for="ciudad">Ciudad:</label>
+    <select name="ciudad" id="ciudad" required>
+      <option value="almeria">ALMERÍA</option>
+      <option value="cadiz">CÁDIZ</option>
+      <option value="cordoba">CÓRDOBA</option>
+      <option value="granada">GRANADA</option>
+      <option value="huelva">HUELVA</option>
+      <option value="jaen">JAÉN</option>
+      <option value="malaga">MÁLAGA</option>
+      <option value="sevilla" selected>SEVILLA</option>
+    </select>
+<form action="./submit_page" method="get">
+</fieldset>
+<fieldset>
+    <legend>Otros datos</legend>
+    <p>
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha" name="fecha">
+    </p>
+    <p>
+      <label for="tiempo">Tiempo:</label>
+      <input type="time" id="tiempo" name="tiempo">
+    </p>
+    <p>
+      <label for="fechahora">Fecha y hora:</label>
+      <input type="datetime-local" id="fechahora" name="fechahora">
+    </p>
+    <p>
+      <label for="mes">Mes:</label>
+      <input type="month" id="mes" name="mes">
+    </p>
+    <p>
+      <label for="semana">Semana:</label>
+      <input type="week" id="semana" name="semana">
+    </p>
+    <p>
+      <label for="numero">Número (entre -10 y 10):</label>
+      <input type="number" id="numero" name="numero" min="-10" max="10">
+    </p>
+    <p>
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono">
+    </p>
+    <p>
+      <label for="busqueda">Término de búsqueda:</label>
+      <input type="search" id="busqueda" name="busqueda">
+    </p>
+    <p>
+      <label for="color">Color favorito:</label>
+      <input type="color" id="color" name="color">
+    </p>
+  </fieldset>
+</form>
+  <fieldset>
+      <legend>Otros controles</legend>
+      <p>Aficiones:</p>
+      <p>
+        <input type="checkbox" id="cine" name="aficion_cine" value="1" checked>
+        <label for="cine">Cine</label>
+        <input type="checkbox" id="deporte" name="aficion_deporte" value="1">
+        <label for="lectura">Deporte</label>
+      </p>
+      <p>Forma de pago:</p>
+      <p>
+        <input type="radio" id="visa" name="pago" value="V">
+        <label for="visa">Visa</label>
+        <input type="radio" id="american" name="pago" value="A">
+        <label for="american">American Express</label>
+        <input type="radio" id="mastercard" name="pago" value="M">
+        <label for="mastercard">Mastercard</label>
+      </p>
+    </fieldset>
+    <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar datos">
+  </form>
+</body>
+</html>
+
